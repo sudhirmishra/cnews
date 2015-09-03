@@ -1,0 +1,440 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+	<title>College Khabar</title>
+	<style>
+		.mdl-layout-title{
+			padding-bottom: 20px;
+		}
+
+		#view-source {
+			position: fixed;
+			display: block;
+			right: 0;
+			bottom: 0;
+			margin-right: 40px;
+			margin-bottom: 40px;
+			z-index: 900;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<!-- Simple header with fixed tabs. -->
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+	mdl-layout--fixed-tabs">
+	<header class="mdl-layout__header">
+		<div class="mdl-layout__header-row">
+			<!-- Title -->
+			<span class="mdl-layout-title">College Khabar</span>
+			<div class="mdl-layout-spacer"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="fixed-header-drawer-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="fixed-header-drawer-exp" />
+        </div>
+      </div>
+		</div>
+		<!-- Tabs -->
+		<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+			<a href="#fixed-tab-1" class="mdl-layout__tab is-active">Admissions</a>
+			<a href="#placements" class="mdl-layout__tab">Placements</a>
+			<a href="#fixed-tab-3" class="mdl-layout__tab">Events</a>
+		</div>
+	</header>
+	<div class="mdl-layout__drawer">
+		<span class="mdl-layout-title">Logo</span>
+		<nav class="mdl-navigation">
+			<a class="mdl-navigation__link" href="">Home</a>
+			<a class="mdl-navigation__link" href="">About Us</a>
+			<a class="mdl-navigation__link" href="">Contact Us</a>
+		</nav>
+	</div>
+	<main class="mdl-layout__content">
+		<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+			<div class="page-content">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--3-col">
+						<div class="demo-card-square mdl-card mdl-shadow--2dp">
+							<div class="mdl-card__title mdl-card--expand">
+								<h2 class="mdl-card__title-text">PGEE Update</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Aenan convallis.
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									View Updates
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--3-col">
+						<div class="demo-card-square mdl-card mdl-shadow--2dp">
+							<div class="mdl-card__title mdl-card--expand">
+								<h2 class="mdl-card__title-text">BITSAT Update</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Aenan convallis.
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									View Updates
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--3-col">
+						<div class="demo-card-square mdl-card mdl-shadow--2dp">
+							<div class="mdl-card__title mdl-card--expand">
+								<h2 class="mdl-card__title-text">GATE Update</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Aenan convallis.
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									View Updates
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<section class="mdl-layout__tab-panel" id="placements">
+			<div class="page-content">
+
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--3-col"> 
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="images/amazon.png">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Placement @ IIIT<i class="material-icons right">more_vert</i></span>
+								<p><a href="#">More</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Placement @ IIIT<i class="material-icons right">close</i></span>
+								<div><i class="material-icons">place</i></div>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--3-col"> 
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="images/google.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Placement @ DDIT<i class="material-icons right">more_vert</i></span>
+								<p><a href="#">More</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Placement @ DDIT<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--3-col"> 
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="images/qualcom.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Placement @ BITS<i class="material-icons right">more_vert</i></span>
+								<p><a href="#">More</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Placement @ BITS<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--3-col"> 
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="images/amazon.png">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Placement @ IIIT<i class="material-icons right">more_vert</i></span>
+								<p><a href="#">More</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Placement @ IIIT<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--3-col"> 
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="images/google.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Placement @ DDIT<i class="material-icons right">more_vert</i></span>
+								<p><a href="#">More</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Placement @ DDIT<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--3-col"> 
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="images/qualcom.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Placement @ BITS<i class="material-icons right">more_vert</i></span>
+								<p><a href="#">More</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Placement @ BITS<i class="material-icons right">close</i></span>
+								<p>Here is some more information about the event that is only revealed once clicked on. Contains brief info about <strong>Venue, Time, Location</strong></p>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--3-col"> 
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="images/amazon.png">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Placement @ IIIT<i class="material-icons right">more_vert</i></span>
+								<p><a href="#">More</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Placement @ IIIT<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--3-col"> 
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="images/google.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Placement @ DDIT<i class="material-icons right">more_vert</i></span>
+								<p><a href="#">More</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Placement @ DDIT<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-cell mdl-cell--3-col"> 
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-light">
+								<img class="activator" src="images/qualcom.jpg">
+							</div>
+							<div class="card-content">
+								<span class="card-title activator grey-text text-darken-4">Placement @ BITS<i class="material-icons right">more_vert</i></span>
+								<p><a href="#">More</a></p>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Placement @ BITS<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="mdl-layout__tab-panel" id="fixed-tab-3">
+			<div class="page-content">
+				<!-- Wide card with share menu button -->
+				<style>
+					.demo-card-wide.mdl-card {
+
+					}
+					.demo-card-wide > .mdl-card__title {
+						color: #fff;
+						height: 176px;
+						background: url('assets/demos/welcome_card.jpg') center / cover;
+					}
+					.demo-card-wide > .mdl-card__menu {
+						color: #fff;
+					}
+				</style>
+
+				<div class="mdl-grid">
+					<div class="mdl-cell--4-col">					
+						<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+							<div class="mdl-card__title">
+								<h2 class="mdl-card__title-text">OASIS</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Mauris sagittis pellentesque lacus eleifend lacinia...
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="event.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									Details
+								</a>
+							</div>
+							<div class="mdl-card__menu">
+								<button id="demo-menu-lower-right" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+									<i class="material-icons">share</i>
+								</button>
+								<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+								for="demo-menu-lower-right">
+								<li class="mdl-menu__item">Facebook</li>
+								<li class="mdl-menu__item">Twitter</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="mdl-cell--4-col">					
+					<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+						<div class="mdl-card__title">
+							<h2 class="mdl-card__title-text">BOSM</h2>
+						</div>
+						<div class="mdl-card__supporting-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Mauris sagittis pellentesque lacus eleifend lacinia...
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+							<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								Details
+							</a>
+						</div>
+						<div class="mdl-card__menu">
+							<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+								<i class="material-icons">share</i>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="mdl-cell--4-col">					
+					<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+						<div class="mdl-card__title">
+							<h2 class="mdl-card__title-text">WAVES</h2>
+						</div>
+						<div class="mdl-card__supporting-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Mauris sagittis pellentesque lacus eleifend lacinia...
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+							<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								Details
+							</a>
+						</div>
+						<div class="mdl-card__menu">
+							<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+								<i class="material-icons">share</i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+				<div class="mdl-grid">
+					<div class="mdl-cell--4-col">					
+						<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+							<div class="mdl-card__title">
+								<h2 class="mdl-card__title-text">APOGEE</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Mauris sagittis pellentesque lacus eleifend lacinia...
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									Details
+								</a>
+							</div>
+							<div class="mdl-card__menu">
+								<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+									<i class="material-icons">share</i>
+								</button>
+						</div>
+					</div>
+				</div>
+				<div class="mdl-cell--4-col">					
+					<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+						<div class="mdl-card__title">
+							<h2 class="mdl-card__title-text">Welcome</h2>
+						</div>
+						<div class="mdl-card__supporting-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Mauris sagittis pellentesque lacus eleifend lacinia...
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+							<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								Details
+							</a>
+						</div>
+						<div class="mdl-card__menu">
+							<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+								<i class="material-icons">share</i>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="mdl-cell--4-col">					
+					<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+						<div class="mdl-card__title">
+							<h2 class="mdl-card__title-text">Welcome</h2>
+						</div>
+						<div class="mdl-card__supporting-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Mauris sagittis pellentesque lacus eleifend lacinia...
+						</div>
+						<div class="mdl-card__actions mdl-card--border">
+							<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+								Details
+							</a>
+						</div>
+						<div class="mdl-card__menu">
+							<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+								<i class="material-icons">share</i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+</div>
+<a href="#modal1" id="view-source" class="modal-trigger mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast" data-upgraded=",MaterialButton,MaterialRipple">Login<span class="mdl-button__ripple-container"><span class="mdl-ripple is-animating" style="width: 225.458897536044px; height: 225.458897536044px; -webkit-transform: translate(-50%, -50%) translate(51px, 18px); transform: translate(-50%, -50%) translate(51px, 18px);"></span></span></a>
+
+
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+ <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Login </h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+</body>
+</html>
